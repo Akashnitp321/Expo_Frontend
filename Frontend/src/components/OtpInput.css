@@ -1,0 +1,106 @@
+/* Background gradient */
+
+
+/* OTP form container */
+.otp-form-container {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 720px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Logo container */
+.logo-container {
+  margin-bottom: 16px;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+/* Heading style */
+.otp-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 16px;
+}
+
+/* OTP input fields */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+  .otp-form-container {
+      padding: 24px;
+      max-width: 280px;
+  }
+
+  .otp-heading {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+  }
+
+  .otp-container {
+      gap: 6px;
+  }
+
+ 
+
+  .verify-button {
+      padding: 10px;
+  }
+
+  .logo {
+      width: 50px;
+  }
+
+  .otp-form-container p {
+      font-size: 0.9rem;
+      
+  }
+}
+
+.otp-input {
+  width: 1rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.otp-input:focus {
+  outline: none;
+  border: 1px solid #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .otp-input {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .otp-input {
+    width: 1rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
